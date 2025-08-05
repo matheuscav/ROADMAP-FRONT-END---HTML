@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo de Página</title>
+<style>
+  th, td {
+    border-style: solid;
+    border-color: #96D4D4;
+  }
+      
+</style>
+
+   <!--
+   <style> ESTILOS DE IMAGEM DE FUNDO
+        /* A imagem de fundo é aplicada ao elemento body */
+        /* A imagem de fundo cobre todo o espaço disponível */
+        /* A imagem de fundo não se move com o scroll */
+        /* A imagem de fundo é ajustada para preencher todo o espaço disponível */
+      body {
+        background-image: url('img_girl.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+        background-attachment: fixed; /* A imagem de fundo não se move com o scroll */
+        background-size: 100% 100%; /* Ajusta a imagem para preencher todo o espaço disponível */
+         </style>
+   --> 
+
+   
+   
+</head>
+
+<body style="background-color: aliceblue;">
+
+  <h1 style="text-align: center;" >titulo 1</h1> 
+
+  <h2>Tabelas com bordas Pontilhadas</h2>
+<p>Use a propriedade CSS border-style para definir o estilo das bordas</p>
+
+<table style="width: 100%;">
+<tr>
+  <th>Primeiro Nome</th>
+  <th>Segundo Nome</th>
+  <th>Idade</th>
+</tr>
+
+<tr>
+  <td style="text-align: center;">Matheus</td>
+  <td style="text-align: center;">Vinicius</td>
+  <td style="text-align: center;">27 </td>
+</tr>
+<tr>
+  <td style="text-align: center;">Adryellen</td>
+  <td style="text-align: center;">Santos</td>
+  <td style="text-align: center;">30</td>
+</tr>
+<tr>
+   <td style="text-align: center;">John</td>
+  <td style="text-align: center;">Doe</td>
+  <td style="text-align: center;">80</td>
+</tr>
+
+</table>
+
+ 
+ <!-- <h2>titulo 2</h2> <hr>
+  <h3>titulo 3</h3> <hr>
+  <h4>titulo 4</h4>
+  <h5>titulo 5</h5>
+  <h6>titulo 6</h6>-->
+    
+  
+    <!--<a href="https://www.w3schools.com">isso e um <link rel="stylesheet" href=""></a>-->
+    
+    <!--<img src="img_w3schools.png.png" alt="w3schools.com" width="600" height="300"> -->
+    
+  <!--<p style="color: rgb(230, 12, 12);"> esse é um paragrafo vermelho</p> (atributo de estilo)-->
+ 
+
+
+<!-- citações HTML -->
+<!--<p> o objetivo da WWF's e: <q>contruir um futuro onde as pessoas podem viver em harmonia com a natureza</q> </p>
+
+<p> o <abbr title="wolrd Health Organization">WHO</abbr> foi fundado em 1948</p>
+
+<address>
+  escrito por john doe. <br>
+  visite-nos em:<br>
+  Example.com <br>
+  Box 546, disneyland <br>
+  EUA
+</address>
+
+<P> <CIte>O grito</CIte> por edvard munch. pintado em 1893.</P>
+
+<p>se seu navegador suportar substituição bidirecional (bdo), a proxima linha será escrita da direita para a esquerda (rtl);</p>
+<bdo dir="rtl"> esta linha sera escrita da direita para a esquerda</bdo>
+ -->
+
+ <!-- (CORES HTML) 
+<h1 style="background-color: tomato;">tomato </h1>
+<h1 style="background-color: orange;">orange </h1>
+<h1 style="background-color: dodgerblue;"> dodgerblue </h1>
+<h1 style="background-color: mediumseagreen;"> mediumseagreen </h1>
+<h1 style="background-color: gray;"> gray </h1>
+<h1 style="background-color: slateblue;"> slateblue </h1>
+<h1 style="background-color: violet;">violet </h1>
+<h1 style="background-color: lightgray;">lightgray </h1> -->
+
+<!-- CORES DE FUNDO 
+<h1 style="background-color: dodgerblue;"> olá mundo </h1>
+<p style="background-color: tomato;"> lorem ipsum</p> -->
+
+<!-- CORES DO TEXTO 
+<H1 style="color: tomato;"> Olá mundo </H1>
+<p style="color: dodgerblue;">Lorem ipsum...</p>
+<p style="background-color: mediumseagreen;">Ut wisi enim...</p>
+-->
+
+<!-- CORES DE BORDA 
+<h1 style="border: 2px solid tomato;">Olá mundo</h1>
+<h1 style="border: 2px solid dodgerblue;">Olá mundo</h1>
+<h1 style="border: 2px solid violet;">olá mundo</h1> -->
+
+<!-- NIVEL DE CORES
+<h1 style="background-color: rgb(225, 99, 71);">...</h1>
+<h1 style="background-color: #ff6347;">...</h1>
+<h1 style="background-color: hsl(9, 100%, 64%);">...</h1>
+
+<h1 style="background-color: rgb(225, 99, 71, 0.5);">...</h1>
+<h1 style="background-color: hsla(9, 100%, 64%, 0.5);">...</h1> -->
+
+<!-- VALORES DE COR RGB (RED-GREEN-BLUE) 
+<h1 style="background-color: rgb(255, 0, 0);"> rgb(255, 0, 0)</h1>
+<h1 style="background-color: rgb(0, 0, 255);">rgb(0, 0, 255)</h1>
+<h1 style="background-color: rgb(0, 255, 0);">rgb(0, 255, 0)</h1>
+<h1 style="background-color: rgb(238, 130, 238);">rgb(238,130,238)</h1>
+<h1 style="background-color: rgb(255, 165, 0);">rgb(255, 165, 0)</h1>
+<h1 style="background-color: rgb(106,90,205);">rgb(106, 90, 205)</h1>
+
+<h1 style="background-color: rgb(255, 99, 71);"> rgb(255, 99, 71)</h1> -->
+
+<!--TONS DE CINZA frequentemente definidos usando valores iguais para todos os três parâmetros
+<h1 style="background-color: rgb(60,60,60);">rgb(60,60,60)</h1>
+<h1 style="background-color: rgb(100,100,100);">rgb(100,100,100)</h1>
+<h1 style="background-color: rgb(140,140,140);">rgb(140,140,140)</h1>
+<h1 style="background-color: rgb(180,180,180);">rgb(180,180,180)</h1>
+<h1 style="background-color: rgb(200,200,200);">rgb(200,200,200)</h1>
+<h1 style="background-color: rgb(240,240,240);">rgb(240,240,240)</h1> -->
+
+
+<!-- VALORES DE COR RGBA O parâmetro alfa é um número entre 0,0 (totalmente transparente) e 1,0 (nada transparente):
+ <h1 style="background-color: rgba(255,99,71,0);">rgba(255,99,71,0)</h1>
+<h1 style="background-color: rgba(255,99,71,0.2);">rgba(255,99,71,0.2)</h1>
+<h1 style="background-color: rgba(255,99,71,0.4);">rgba(255,99,71,0.4)</h1>
+<h1 style="background-color: rgba(255,99,71,0.6);">rgba(255,99,71,0.6)</h1>
+<h1 style="background-color: rgba(255,99,71,0.8);">rgba(255,99,71,0.8)</h1>
+<h1 style="background-color: rgba(255,99,71,1);">rgba(255,99,71,1)</h1>  -->
+
+
+<!--VALORES DE CORES #rrggbb Onde rr (vermelho), gg (verde) e bb (azul) 
+são valores hexadecimais entre 00 e ff (o mesmo que decimal 0-255).
+<h1 style="background-color: #ff6347;">rrggbb(ff6347)</h1>
+<h1 style="background-color: #ff0000;">rrggbb(#ff0000)</h1>
+<h1 style="background-color: #0000ff;">rrggbb(#0000ff)</h1>
+<h1 style="background-color: #3cb371;">rrggbb(#3cb371)</h1>
+<h1 style="background-color: #ee82ee;">rrggbb(#ee82ee)</h1>
+<h1 style="background-color: #ffa500;">rrggbb(#ffa500)</h1>
+<h1 style="background-color: #6a5acd;">rrggbb(#6a5acd)</h1>-->  
+
+<!--Tons de Cinza Tons de cinza são frequentemente definidos usando valores iguais para todos os três parâmetros: 
+<h1 style="background-color: #404040;">rrggbb(#404040)</h1>
+<h2 style="background-color: #686868;">rrggbb(#686868)</h2>
+<h3 style="background-color: #a0a0a0;">rrggbb(#a0a0a0)</h3>
+<h4 style="background-color: #bebebe;">rrggbb(#bebebe)</h4>
+<h5 style="background-color: #dcdcdc;">rrggbb(#dcdcdc)</h5>
+<h6 style="background-color: #f8f8f8;">rrggbb(#f8f8f8)</h6> -->
+
+<!-- Valores de cor HSL
+Em HTML, uma cor pode ser especificada usando matiz, saturação e luminosidade (HSL) no formato:
+hsl( matiz , saturação , luminosidade )
+<h1 style="background-color: hsl(0, 100%, 50%);"> hsl(0, 100%, 50%)</h1>
+<h1 style="background-color: hsl(240, 100%, 50%);">hsl(240, 100%, 50%)</h1>
+<h1 style="background-color: hsl(147, 50%, 47%);">hsl(147, 50%, 47%)</h1>
+<h1 style="background-color: hsl(300,76%, 72%);">hsl(300, 76%, 72%)</h1>
+<h1 style="background-color: hsl(39, 100%, 50%);">hsl(39, 100%, 50%)</h1>
+<h1 style="background-color: hsl(248, 53%, 58%);">hsl(248, 53%, 58%)</h1> -->
+
+<!-- Saturação pode ser descrita como a intensidade de uma cor. 100% é cor pura, sem tons de cinza.
+50% é 50% cinza, mas você ainda pode ver a cor.
+0% é completamente cinza; você não consegue mais ver a cor.
+<h1 style="background-color: hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+<h1 style="background-color: hsl(0, 80%, 50%);">hsl(0, 80%, 50%)</h1>
+<h1 style="background-color: hsl(0, 60%, 50%);">hsl(0, 60%, 50%)</h1>
+<h1 style="background-color: hsl(0, 40%, 50%);">hsl(0, 40%, 50%)</h1>
+<h1 style="background-color: hsl(0, 20%, 50%);">hsl(0, 20%, 50%)</h1>
+<h1 style="background-color: hsl(0, 0%, 50%);">hsl(0, 0%, 50%)</h1> -->
+
+
+<!-- A luminosidade de uma cor pode ser descrita como a quantidade de luz que você deseja dar à cor
+ onde 0% significa nenhuma luz (preto), 50% significa 50% de luz (nem escuro nem claro) e 
+ 100% significa luminosidade total (branco).
+<h1 style="background-color: hsl(0, 100%, 0%); color: aliceblue;">  hsl(0, 100%, 0%) </h1>
+<h1 style="background-color: hsl(0, 100%, 25%);color: aliceblue;">hsl(0, 100%, 25%)</h1>
+<h1 style="background-color: hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h1>
+<h1 style="background-color: hsl(0, 100%, 75%);">hsl(0, 100%, 75%)</h1>
+<h1 style="background-color: hsl(0, 100%, 90%);">hsl(0, 100%, 90%)</h1>
+<h1 style="background-color: hsl(0, 100%, 100%);">hsl(0,100%,100%)</h1> -->
+
+
+<!-- HTML e CSS
+Use o style atributo HTML para estilo embutido
+Use o <style>elemento HTML para definir CSS interno
+Use o <link>elemento HTML para se referir a um arquivo CSS externo
+Use o <head>elemento HTML para armazenar elementos <style> e <link>
+Use a color propriedade CSS para cores de texto
+Use a font-family propriedade CSS para fontes de texto
+Use a font-size propriedade CSS para tamanhos de texto
+Use a propriedade CSS border para bordas
+Use a propriedade CSS padding para espaço dentro da borda
+Use a propriedade CSS margin para espaço fora da borda
+-->
+
+<!--
+
+<a href="https://www.w3schools.com" target="_blank">visite a w3schools.com!</a>
+
+<h2>URLs absuluto</h2>
+<p><a href="https://www.w3.org/">w3</a></p>
+<p><a href="htpps://www.google.com/">google</a></p>
+
+<h2>URLs relativos</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS tutorial</a></p>
+
+
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width: 42px; height: 42px;">
+</a>
+
+<p> <a href="mailto:matheuspop@icloud.com">te envio um email</a></p>
+
+
+<button onclick="document.location='default.asp'">HTML tutorial</button>
+
+<p> <a href="https://www.w3schools.com/html/" title="go to w3schools HTML section"> 
+  viste o tutorial de HTML</a>
+</p>
+
+<a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>
+
+Use o <a> elemento para definir um link
+Use o href atributo para definir o endereço do link
+Use o target atributo para definir onde abrir o documento vinculado
+Use o <img> elemento (dentro <a>) para usar uma imagem como um link
+Use o mailto:esquema dentro do href atributo 
+para criar um link que abra o programa de e-mail do usuário-->
+
+
+<!-- resumo do capítulo Use o id atributo (id=" valor ") para definir marcadores em uma página
+Use o href atributo (href="# valor ") para vincular ao marcador
+<h2 id="c4">Chapter 4</h2> 
+
+<a href="#c4">jump to Chapter 4</a> <br>
+
+<p><a href="html_demo.html#c4">jump to Chapter 4</a> </p>
+ -->
+
+
+ <!-- A tag HTML <img>é usada para incorporar uma imagem em uma página da web.
+
+Tecnicamente, as imagens não são inseridas em uma página da web; elas são vinculadas a páginas da web. A <img>tag cria um espaço de armazenamento para a imagem referenciada.
+
+A <img>tag está vazia, contém apenas atributos e não tem uma tag de fechamento.
+
+A <img>tag tem dois atributos obrigatórios:
+
+src - Especifica o caminho para a imagem
+alt - Especifica um texto alternativo para a imagem
+<h2>HTML image</h2>
+<img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+
+<img src="img_girl.jpg" alt="girl in a jacket" width="500" height="600">
+
+<img src="img_chania.jpg" alt="Flowers in Chania" width="460">
+
+<h2>Alternative text</h2>
+
+<p>The alt attribute should reflect the image content, so users who 
+  cannot see the image get an understanding of what the image contains:</p>
+
+  <img src="img_chania.jpg" alt="Flowers in Chania" width="460" height="365">
+-->
+
+
+<!--
+Tamanho da imagem - Largura e altura
+Você pode usar o styleatributo para especificar a largura e a altura de uma imagem.
+Alternativamente, você pode usar os atributos width e :height 
+Os atributos widthe heightsempre definem a largura e a altura da imagem em pixels.
+<h2><strong>imagem - largura e altura</strong></h2>
+ <p> <img src="img_girl.jpg" alt="Girl in a jacket" style="width: 500px;" height="600px;"></p>
+<h2>atributos de largura/altura/width/height ou estilo</h2>
+<p>a primeira imagem usa o atributo width (definido como 128 pixels)
+  mas o estilo na seção head o substitui e define a largura como 100% </p>
+<h2>Imagens animadas</h2>
+<p>o HTML permite imagens em movimento</p>
+<img src="programming.gif" alt="computer man" style="width: 48px; height: 48px;">
+
+<h2>imagem como link</h2>
+<p>esta imagem e um link. você pode clicar nela</p>
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width: 42px; height: 42px;">
+</a>
+
+<h2>imagem flutuante</h2>
+<p><strong>uma imagem flutuante para direita</strong></p>
+ 
+<p><img src="smiley.gif" alt="smiley face" style="float: right;width: 42px;
+height: 42px;">
+ um paragráfo com imagem flutuante. um paragrafo com imagem flutuante. 
+ um paragrafo com imagem flutuante</p>
+
+ <p><strong>Imagem flutuante para esquerda</strong></p>
+  <p><img src="smiley.gif" alt="smiley face"
+    style="float: left;width: 42px; height: 42px;">
+  um paragráfo com imagem flutuante. um paragrafo com imagem flutuante. 
+ um paragrafo com imagem flutuante</p>
+
+Use o elemento HTML <img>para definir uma imagem
+Use o atributo HTML srcpara definir a URL da imagem
+Use o altatributo HTML para definir um texto alternativo para uma imagem, caso ela não possa ser exibida
+Use o HTML widthe heightos atributos ou o CSS widthe height as propriedades para definir o tamanho da imagem
+Use a propriedade CSS floatpara deixar a imagem flutuar para a esquerda ou para a direita
+
+ -->
+
+
+ <!--
+ <h2> MAPA DE IMAGEM</h2>
+<P>Clique no computador, telefone ou na xicara para ir a uma nova pagina e aprender mais sobre
+  cada um desses itens.
+  </P> 
+
+<img src="workplace.jpg" alt="workplace" usemap="#workmap" style="width: 400px; height: 379px;">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" href="computer.jpg" alt="computer">
+<area shape="rect" coords="290,172,333,250" href="cellphone.jpg" alt="Phone">
+<area shape="circle" coords="337,300,44" href="coffeehouse2.jpg" alt="Cup of coffee">
+
+<h2>MAPA DE IMAGEM</h2>
+<P>Clique no Croissant para ir a uma nova pagina e aprender mais sobre cada topico</P>
+<img src="frenchfood.jpg" alt="french food" usemap="#Foodmap" style="width: 450px; height: 675px;">
+<map name="foodmap">
+<area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,
+58,352,37,322,40,259,103,161,128,147" href="Croissant.jpg" alt="Croissant">
+
+
+<h2>MAPA DE IMAGEM</h2>
+<P>Clique na xicara de café para executar uma função JavaScript:</P>
+<img src="workplace.jpg" alt="workplace" usemap="#workmap2" style="width: 400px; height: 379px;">
+
+<map name="workmap2">
+<area shape="circle" coords="337,300,44" href="coffeehouse2.jpg" onclick="myfunction()">
+<script>
+  function myfunction() {
+    alert("Você clicou na xicara de café!");
+  }
+</script>
+
+</map>
+
+</map>
+
+
+</map>
+ -->
+
+ 
+<!--
+  <H2>Elemento de Imagem</H2>
+
+<picture>
+<source media="(min-width: 650px)" srcset="img_girl.jpg">
+  <source media="(min-width:465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg" style="width: auto;" >
+</picture>
+
+<p>redimensione o navegador para ver diferentes versões de imagem sendo carregadas em diferentes 
+  tamanhos de viewport. O navegador escolherá a imagem mais adequada para o tamanho da tela
+e bucar a imagem especificada no atributo srcset</p>
+
+-->
+
+
+
+<!--     TABELAS HTML
+     PRIMEIRO CRIAR UM STYLE NA HEAD PARA A TABELA
+ <style>
+    table {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+td, th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+
+       </style>
+Células de tabela
+Cada célula da tabela é definida por uma tag <td>e uma </td> tag. td significa dados de tabela.
+Tudo entre <td>e </td> é o conteúdo de uma célula da tabela.
+
+Linhas da tabela
+Cada linha da tabela começa com a <tr>e termina com uma </tr>tag.
+tr significa fileira de mesa.
+
+Cabeçalhos de tabela
+Às vezes, você quer que suas células sejam células de cabeçalho de tabela. Nesses casos, use a <th>tag em vez da <td>tag:
+th significa cabeçalho de tabela.
+
+<h2>Tabelas HTML</h2> 
+ 
+<table>
+<tr>
+<th>Empresa</th>
+<th>Contato</th>
+<th>País</th>
+</tr>
+
+<tr>
+<td>Vibe Urbana</td>
+<td>Mary anders</td>
+<td>Alemanha</td>
+</tr>
+
+<tr>
+<td>Centro Comercial Moctezuma</td>
+<td>Francisco Chang</td>
+<td>mexico</td>
+</tr>
+
+<tr>
+<td>ernst Handel</td>
+<td>Roland mendel</td>
+<td>Austria</td>
+
+</tr>
+
+<tr>
+  <td>Island tading</td>
+  <td>Helen Bennet</td>
+  <td>Londres</td>
+</tr>
+<tr>
+  <td>Laughing baccus</td>
+  <td>Yoshi Tannamuri</td>
+  <td>Canada</td>
+</tr>
+<tr>
+  <td>Magazzini Alimentari</td>
+  <td>Giovanni Rovelli</td>
+  <td>Italia</td>
+</tr>
+
+</table>
+
+BORDAS DE TABELA HTML
+<style>
+    table, th, td {
+      border: 1px solid black;
+          }
+  </style>
+
+Como adicionar uma borda Para adicionar uma borda, use a border propriedade 
+CSS nos elementos table, the td:
+Bordas de tabela recolhidas
+Para evitar bordas duplas como no exemplo acima, defina a border-collapse 
+propriedade CSS como collapse. Isso fará com que as bordas se reduzam a uma única borda:
+
+ <h2>Tabelas com bordas</h2>
+<p>Use a propriedade de borda do css para adicionar uma borda a tabela</p>
+
+<table style="width: 100%;">
+<tr>
+  <th>Primeiro Nome</th>
+  <th>Segundo Nome</th>
+  <th>Idade</th>
+</tr>
+
+<tr>
+  <td style="text-align: center;">Matheus</td>
+  <td style="text-align: center;">Vinicius</td>
+  <td style="text-align: center;">27 </td>
+</tr>
+<tr>
+  <td style="text-align: center;">Adryellen</td>
+  <td style="text-align: center;">Santos</td>
+  <td style="text-align: center;">30</td>
+</tr>
+<tr>
+   <td style="text-align: center;">John</td>
+  <td style="text-align: center;">Doe</td>
+  <td style="text-align: center;">80</td>
+</tr>
+
+</table>
+
+
+BORDAS DE TABELAS INVISIVEIS
+Para criar uma tabela com bordas invisíveis, defina a cor da borda como a
+cor do fundo da tabela. Neste exemplo, a cor da borda é definida como branco 
+(#ffffff) e a cor de fundo das células é definida como azul claro (#96D4D4):
+<h2>Tabelas com bordas Invisiveis</h2>
+<p>Estilize a tabela com bordas brancas e uma cor de fundo nas células para dar
+  a impressão de bordas invisíveis</p>
+<table style="width: 100%;">
+<tr>
+  <th>Primeiro Nome</th>
+  <th>Segundo Nome</th>
+  <th>Idade</th>  
+</tr>
+<tr>
+  <td style="text-align: center;">Matheus</td>
+  <td style="text-align: center;">Vinicius</td>
+  <td style="text-align: center;">27 </td>
+</tr>
+<tr>
+  <td style="text-align: center;">Adryellen</td>
+  <td style="text-align: center;">Santos</td>
+  <td style="text-align: center;">30</td>
+</tr>
+<tr>
+   <td style="text-align: center;">John</td>
+  <td style="text-align: center;">Doe</td>
+  <td style="text-align: center;">80</td>
+</tr>
+</table>
+
+TABELAS DE BORDAS ARRENDONDADAS
+Para criar uma tabela com bordas arredondadas, use a border-radius propriedade CSS:
+<h2>Tabelas com bordas Redondas</h2>
+<p>Use a propriedade CSS border-radius adicionar cantos arrendondados a borda</p>
+<table style="width: 100%;">
+<tr>
+  <th>Primeiro Nome</th>
+  <th>Segundo Nome</th>
+  <th>Idade</th>
+</tr>
+<tr>
+  <td style="text-align: center;">Matheus</td>
+  <td style="text-align: center;">Vinicius</td>
+  <td style="text-align: center;">27 </td>
+</tr>
+<tr>
+  <td style="text-align: center;">Adryellen</td>
+  <td style="text-align: center;">Santos</td>
+  <td style="text-align: center;">30</td>
+
+</tr>
+<tr>
+   <td style="text-align: center;">John</td>
+  <td style="text-align: center;">Doe</td>
+  <td style="text-align: center;">80</td>
+</tr>
+</table>
+
+TABELAS COM BORDAS PONTILHADAS
+Para criar uma tabela com bordas pontilhadas, use a border-style propriedade CSS 
+e defina o valor como dotted:
+<h2>Tabelas com bordas Pontilhadas</h2>
+<p>Use a propriedade CSS border-style para definir o estilo das bordas</p>
+<table style="width: 100%;">
+<tr>
+  <th>Primeiro Nome</th>
+  <th>Segundo Nome</th>
+  <th>Idade</th>
+</tr>
+<tr>
+  <td style="text-align: center;">Matheus</td>
+  <td style="text-align: center;">Vinicius</td>
+  <td style="text-align: center;">27 </td>
+</tr>
+<tr>
+  <td style="text-align: center;">Adryellen</td>
+  <td style="text-align: center;">Santos</td>
+  <td style="text-align: center;">30</td>
+</tr>
+<tr>
+   <td style="text-align: center;">John</td>
+  <td style="text-align: center;">Doe</td>
+  <td style="text-align: center;">80</td>
+</tr>
+</table>
+
+TABELAS COM BORDAS COLORADAS
+Para criar uma tabela com bordas coloridas, use a border-color propriedade CSS:
+<h2>Tabelas com bordas Coloridas</h2>
+<p>Use a propriedade CSS border-color para definir a cor das bordas</p>
+<table style="width: 100%;">
+<tr>
+  <th>Primeiro Nome</th>
+  <th>Segundo Nome</th>
+  <th>Idade</th>
+</tr>
+<tr>
+  <td style="text-align: center;">Matheus</td>
+  <td style="text-align: center;">Vinicius</td>
+  <td style="text-align: center;">27 </td>
+</tr>
+<tr>
+  <td style="text-align: center;">Adryellen</td>
+  <td style="text-align: center;">Santos</td>
+  <td style="text-align: center;">30</td>
+</tr>
+<tr>
+   <td style="text-align: center;">John</td>
+  <td style="text-align: center;">Doe</td>
+  <td style="text-align: center;">80</td>
+</tr>
+</table>
+
+
+
+
+
+
+-->
+
+
+</body>
+
+</html>
